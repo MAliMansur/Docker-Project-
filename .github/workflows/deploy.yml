@@ -82,7 +82,7 @@ jobs:
 
         script: |
 
-          cd employee-management-app
+          cd Docker-Project-
 
           docker compose down
 
