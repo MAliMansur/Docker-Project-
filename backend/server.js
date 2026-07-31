@@ -12,7 +12,8 @@ app.use(express.json());
 const employees = [
   { id: 1, name: "Ali", department: "DevOps" },
   { id: 2, name: "Ahmed", department: "Cloud" },
-  { id: 3, name: "Sara", department: "Engineering" }
+  { id: 3, name: "Sara", department: "Engineering" },
+  { id: 4, name: "Azam", department: "Developer" }
 ];
 
 // Root / API check route
