@@ -48,3 +48,6 @@ jobs:
           docker pull ${{ secrets.DOCKER_USERNAME }}/employee-frontend2:latest
           docker compose up -d
           docker ps
+
+
+          
