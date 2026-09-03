@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Node.js Express Backend for Docker Master Project is completed",
+  "description": "Node.js Express Backend for Docker Master Project is about to complete",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
