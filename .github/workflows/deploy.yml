@@ -41,8 +41,8 @@ jobs:
         username: ${{ secrets.EC2_USER }}
         key: ${{ secrets.EC2_SSH_KEY }}
         script:
-          mkdir DOCKER-PROJECT
-          cd DOCKER-PROJECT
+          mkdir DOCKER-PROJECT/
+          cd DOCKER-PROJECT/
           docker compose down
           docker pull ${{ secrets.DOCKER_USERNAME }}/employee-backend2:latest
           docker pull ${{ secrets.DOCKER_USERNAME }}/employee-frontend2:latest
